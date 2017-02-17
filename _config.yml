@@ -19,10 +19,8 @@ kramdown:
 owner:
     name: Antonio Campos
     bio: >
-        Programming enthusiast, another carbon piece.
-        Interested in GUI desing with WPF and QT,
-        currently learning C#, C++, Python and other
-        casual languages.
+        22 years old, Computer science student, another carbon piece.
+    interests: [C++ (Qt), C# (WPF), Python, OCaml, Haskell]
     avatar_hash: cff3e11c78e0e1068164741c02d2c186
     job: Student
     email: geckocore03@outlook.com

@@ -9,12 +9,17 @@ description: All you need to know about me and this blog
         <div class="profile">
             <img class="avatar" src="https://www.gravatar.com/avatar/{{ site.owner.avatar_hash }}?s=200" alt="" title="avatar" />
             <h3>Who am I?</h3>
-            <p>Hi I'm {{ site.owner.name }}, I'm {{ site.owner.bio }}</p>
+            <p>Hi I'm {{ site.owner.name }}, {{ site.owner.bio }}</p>
+            <h4>Interests:</h4>
+            <ul>
+                {% for interest in site.owner.interests %}
+                <li>{{ interest }}</li>
+                {% endfor %}
+            </ul>
 
             <h3>Other cool stuff I like</h3>
             <ul>
                 <li>Linux { Debian, Ubuntu and Fedora }</li>
-                <li>Functional programming</li>
                 <li>Web development { Django, Rails }</li>
                 <li>Applied Math</li>
             </ul>
