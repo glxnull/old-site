@@ -1,3 +1,3 @@
 # My Blog
 
-Simple blog created using [Jekyll].
+Simple blog created using Jekyll.
