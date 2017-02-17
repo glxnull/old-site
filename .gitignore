@@ -1,0 +1,8 @@
+### Jekyll ###
+_site
+.sass-cache
+.jekyll-metadata
+
+### Other stuff ###
+node_modules/
+bower_components/

@@ -1,0 +1,24 @@
+{
+  "name": "glxnull-github",
+  "version": "1.0.0",
+  "description": "My blog",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "glxnull.github.io"
+  },
+  "keywords": [
+    "blog",
+    "bootstrap",
+    "github"
+  ],
+  "author": "Antonio Campos <geckocore03@outlook.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}

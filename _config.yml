@@ -1,0 +1,37 @@
+# Site configuration
+title: Welcome to my Blog
+email: geckocore03@outlook.com
+description: Developer, Just another carbon piece.
+baseurl: "/"
+url: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
+
+# Owner information
+owner:
+    name: Antonio Campos
+    bio: >
+        Programming enthusiast, anther carbon piece.
+        Interested in GUI desing with WPF y QT.
+        currently learning C#, C++, Python and other languages.
+    avatar-hash: cff3e11c78e0e1068164741c02d2c186
+    job: Student
+    email: geckocore03@outlook.com
+    twitter: glxnull
+    facebook: shellgecko
+    github: glxnull
+    instagram: glxnull
+
+# Gems
+gems:
+  - jekyll-feed
+  - github-pages
+exclude: [Gemfile, Gemfile.lock, node_modules, gulpfile]

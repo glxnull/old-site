@@ -1,0 +1,24 @@
+{
+  "name": "glxnull-github",
+  "description": "My blog",
+  "main": "",
+  "authors": [
+    "Antonio Campos <geckocore03@outlook.com>"
+  ],
+  "license": "None",
+  "homepage": "https://glxnull.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}
