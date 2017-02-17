@@ -1,8 +1,8 @@
 # Site configuration
 title: Welcome to my Blog
 email: geckocore03@outlook.com
-description: Developer, Just another carbon piece.
-baseurl: "/"
+description: Just to share what I've learned
+baseurl: ""
 url: ""
 
 # Build settings
@@ -19,16 +19,18 @@ kramdown:
 owner:
     name: Antonio Campos
     bio: >
-        Programming enthusiast, anther carbon piece.
-        Interested in GUI desing with WPF y QT.
-        currently learning C#, C++, Python and other languages.
-    avatar-hash: cff3e11c78e0e1068164741c02d2c186
+        Programming enthusiast, another carbon piece.
+        Interested in GUI desing with WPF and QT,
+        currently learning C#, C++, Python and other
+        casual languages.
+    avatar_hash: cff3e11c78e0e1068164741c02d2c186
     job: Student
     email: geckocore03@outlook.com
     twitter: glxnull
     facebook: shellgecko
     github: glxnull
     instagram: glxnull
+    lastfm: shellgecko
 
 # Gems
 gems:

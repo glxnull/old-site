@@ -2,10 +2,73 @@
 layout: page
 title: About
 permalink: /about/
+description: All you need to know about me and this blog
 ---
 
-<div class="profile">
-    <img src="https://www.gravatar.com/avatar/{{ site.owner.avatar-hash }}?s=200" alt="" title="avatar" />
-    <p>Under construction</p>
-</div>
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="profile">
+            <img class="avatar" src="https://www.gravatar.com/avatar/{{ site.owner.avatar_hash }}?s=200" alt="" title="avatar" />
+            <h3>Who am I?</h3>
+            <p>Hi I'm {{ site.owner.name }}, I'm {{ site.owner.bio }}</p>
 
+            <h3>Other cool stuff I like</h3>
+            <ul>
+                <li>Linux { Debian, Ubuntu and Fedora }</li>
+                <li>Functional programming</li>
+                <li>Web development { Django, Rails }</li>
+                <li>Applied Math</li>
+            </ul>
+
+            <h3>Where you can find me?</h3>
+            <ul class="list-inline text-center">
+                <li>
+                    <a class="social-email" href="mailto:{{ site.owner.email }}" target="_blank" title="Email">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-twitter" href="https://twitter.com/{{ site.owner.twitter }}" target="_blank" title="Twitter">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-facebook" href="https://www.facebook.com/{{ site.owner.facebook }}" target="_blank" title="Facebook">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-github" href="https://github.com/{{ site.owner.github }}" target="_blank" title="Github">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-instagram" href="https://www.instagram.com/{{ site.owner.instagram }}" target="_blank" title="Instagram">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-lastfm" href="https://www.last.fm/user/{{ site.owner.lastfm }}" target="_blank" title="Last-fm">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-lastfm fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>

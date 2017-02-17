@@ -224,6 +224,82 @@ hr.small {
     }
 }
 
+.profile {
+    ul {
+        li {
+            > a {
+                @include animate-link();
+            }
+            .social-email {
+                color: #424651;
+                &:hover,
+                &:active {
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #222;
+                    > span .fa-inverse {
+                        color: #424651;
+                    }
+                }
+            }
+            .social-twitter {
+                color: #00aced;
+                &:hover,
+                &:active {
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #222;
+                    > span .fa-inverse {
+                        color: #00aced;
+                    }
+                }
+            }
+            .social-facebook {
+                color: #3B5998;
+                &:hover,
+                &:active {
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #222;
+                    > span .fa-inverse {
+                        color: #3B5998;
+                    }
+                }
+            }
+            .social-github {
+                color: #112;
+                &:hover,
+                &:active {
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #222;
+                    > span .fa-inverse {
+                        color: #112;
+                    }
+                }
+            }
+            .social-instagram {
+                color: #fb3958;
+                &:hover,
+                &:active {
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #222;
+                    > span .fa-inverse {
+                        color: #fb3958;
+                    }
+                }
+            }
+            .social-lastfm {
+                color: #c3000d;
+                &:hover,
+                &:active {
+                    color: #fff;
+                    text-shadow: 0 0 5px #fff, 0 0 10px #222;
+                    > span .fa-inverse {
+                        color: #c3000d;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // Sections
 footer {
     padding: 50px 0 65px;
