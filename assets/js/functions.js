@@ -1,0 +1,1 @@
+$(function(a){"use strict";a(window).scroll(function(){a(this).scrollTop()>=50?a(".return-to-top").fadeIn(200):a(".return-to-top").fadeOut(200)}),a(".return-to-top").on("click",function(){return a("body, html").animate({scrollTop:0},500),!1})});

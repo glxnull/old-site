@@ -116,35 +116,6 @@ hr.small {
         transform: translate3d(0, 0, 0);
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        &.is-fixed {
-            // when the user scrolls down, we hide the header right above the viewport
-            position: fixed;
-            top: -61px;
-            background-color: rgba(255,255,255,0.5);
-            border-bottom: 1px solid darken(white, 5%);
-            -webkit-transition: -webkit-transform 0.3s;
-            -moz-transition: -moz-transform 0.3s;
-            transition: transform 0.3s;
-
-            .nav {
-                li {
-                    a {
-                        color: $gray-dark;
-                        &:hover,
-                        &:focus {
-                            color: $theme-primary;
-                        }
-                    }
-                }
-            }
-        }
-        &.is-visible {
-            // if the user changes the scrolling direction, we show the header
-            -webkit-transform: translate3d(0, 100%, 0);
-            -moz-transform: translate3d(0, 100%, 0);
-            -ms-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100%, 0);
-        }
     }
 }
 
@@ -315,6 +286,49 @@ footer {
         > i {
             color: #f83e4b;
             text-shadow: 0 0 5px #fff, 0 0 10px #f83e4b
+        }
+    }
+}
+
+// Top button
+.return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    i {
+        color: #fff;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 10px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    &:hover {
+        background: rgba(0, 0, 0, 0.9);
+
+        i {
+            color: #fff;
+            top: 5px;
         }
     }
 }
