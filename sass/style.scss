@@ -33,15 +33,13 @@ h6 {
 
 a {
     color: $gray-dark;
-    &:hover,
-    &:focus {
+    &:hover {
         color: $theme-primary;
     }
 }
 
 a img {
-    &:hover,
-    &:focus {
+    &:hover {
         cursor: zoom-in;
     }
 }
@@ -203,8 +201,7 @@ hr.small {
             }
             .social-email {
                 color: #424651;
-                &:hover,
-                &:active {
+                &:hover {
                     color: #fff;
                     text-shadow: 0 0 5px #fff, 0 0 10px #222;
                     > span .fa-inverse {
@@ -214,8 +211,7 @@ hr.small {
             }
             .social-twitter {
                 color: #00aced;
-                &:hover,
-                &:active {
+                &:hover {
                     color: #fff;
                     text-shadow: 0 0 5px #fff, 0 0 10px #222;
                     > span .fa-inverse {
@@ -225,8 +221,7 @@ hr.small {
             }
             .social-facebook {
                 color: #3B5998;
-                &:hover,
-                &:active {
+                &:hover {
                     color: #fff;
                     text-shadow: 0 0 5px #fff, 0 0 10px #222;
                     > span .fa-inverse {
@@ -236,8 +231,7 @@ hr.small {
             }
             .social-github {
                 color: #112;
-                &:hover,
-                &:active {
+                &:hover {
                     color: #fff;
                     text-shadow: 0 0 5px #fff, 0 0 10px #222;
                     > span .fa-inverse {
@@ -247,8 +241,7 @@ hr.small {
             }
             .social-instagram {
                 color: #fb3958;
-                &:hover,
-                &:active {
+                &:hover {
                     color: #fff;
                     text-shadow: 0 0 5px #fff, 0 0 10px #222;
                     > span .fa-inverse {
@@ -258,8 +251,7 @@ hr.small {
             }
             .social-lastfm {
                 color: #c3000d;
-                &:hover,
-                &:active {
+                &:hover {
                     color: #fff;
                     text-shadow: 0 0 5px #fff, 0 0 10px #222;
                     > span .fa-inverse {
