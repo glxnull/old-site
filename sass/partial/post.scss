@@ -1,0 +1,94 @@
+// Posts
+.post-item-wrapper {
+    padding: 2.1875rem 0;
+    border-bottom: 1px solid $theme-seperator;
+    text-align: center;
+
+    &:last-child {
+        border-bottom: 0;        
+    }
+    overflow: hidden;
+
+    .post-title {
+        display: inline-block;
+        padding: 0 0.625rem;
+        margin-bottom: 1.25rem;
+        font-size: 1.375rem;
+        text-align: center;
+        border-radius: 0.125rem;
+    }
+
+    .post-excerpt {
+        overflow: hidden;
+    }
+
+    .date-content,
+    .excerpt,
+    .tags {
+        float: left;
+    }
+
+    .date-content,
+    .tags {
+        width: 14%;
+    }
+
+    .excerpt {
+        width: 64%;
+        margin: 0 4%;
+        font-size: 0.875rem;
+        text-align: justify;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+
+    .date-content {
+        font-size: 0.8125rem;
+        text-align: center;
+        border: 1px solid $theme-color;
+        border-radius: 0.1875rem;
+
+        .date, .time {
+            padding: 0.125rem 0;
+        }
+
+        .date {
+            color: $theme-color;
+        }
+
+        .time {
+            @include color-revert();
+        }
+    }
+
+    .tags {
+        overflow: hidden;
+        .tag {
+            display: inline-block;
+            font-size: 0.8125rem;
+            padding: 0 0.3125rem;
+            border: 1px solid $theme-color;
+            border-radius: 0.1875rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .post-item-wrapper {
+    .date-content,
+    .tags {
+        display: none;
+    }
+    .excerpt {
+        width: 100%;
+        padding: 0 5%;
+        margin: 0;
+        float: none;
+    }
+    .post-title {
+        font-size: 1.125rem;
+    }
+  }
+}

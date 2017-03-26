@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="{{ site.owner.name }}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.owner.name }}">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sanchez" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sanchez" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
 </head>
 <body>
 
-    {% include nav.html %}
+  {% include header.html %}
 
-    {% include header.html %}
+  <div class="container">
+      {{ content }}
 
-    <div class="container">
-        {{ content }}
+      <a href="#" class="return-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
 
-        <a href="#" class="return-to-top"><i class="fa fa-chevron-up"></i></a>
-    </div>
+  {% include footer.html %}
 
-    {% include footer.html %}
-
-    <script type="text/javascript" src="/assets/js/app.js"></script>
-    <script type="text/javascript" src="/assets/js/functions.js"></script>
+  <script type="text/javascript" src="/assets/js/app.js"></script>
+  <script type="text/javascript" src="/assets/js/functions.js"></script>
 
 </body>
 </html>

@@ -1,10 +1,22 @@
 // Variables
 
-$theme-primary:     #0085A1;
+// Basic colors
+$color-white : #E0E0E0;
+$color-beige : #F0E8DF;
+$color-black : #171314;
 
-$gray-base:        #000;
-$gray-darker:      lighten($gray-base, 13.5%);
-$gray-dark:        lighten($gray-base, 20%);
-$gray:             lighten($gray-base, 33.5%);
-$gray-light:       lighten($gray-base, 46.7%);
-$gray-lighter:     lighten($gray-base, 93.5%);
+// Theme colors
+$dark-red    : #E80C1C;
+$dark-pink   : #F53156;
+$dark-yellow : #F7D117;
+$dark-orange : #F06807;
+$dark-blue   : #1999EC;
+$dark-purple : #A000F5;
+
+// Modify value of $theme-color to get different theme colors
+$theme-color            : $dark-blue;
+$theme-text-color       : $color-white;
+$theme-background       : $color-black;
+$theme-code-background  : $color-beige;
+$theme-seperator        : $color-white;
+$theme-dotted-seperator : $color-white;

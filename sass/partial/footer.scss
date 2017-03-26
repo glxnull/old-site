@@ -1,0 +1,11 @@
+// Footer
+footer {
+    padding: 2.1875rem 0;
+    border-top: $theme-seperator;
+    font-size: 0.75rem;
+    text-align: center;
+
+    .copyright > i {
+        color: #f83e4b;
+    }
+}
