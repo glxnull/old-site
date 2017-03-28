@@ -1,0 +1,59 @@
+// Icons
+
+// Colors
+$mail-color: #00bf8f;
+$twitter-color: #00aced;
+$facebook-color: #3d5b99;
+$github-color: #24292e;
+$instagram-color: #125688;
+$lastfm-color: #db1302;
+
+.profile {
+    .avatar {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+}
+
+.footer-social-icons {
+    padding: 0;
+    list-style: none;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+
+    li {
+        vertical-align: top;
+        display: inline;
+        height: 100px;
+
+        i {
+            padding: 10px 14px;
+            background-color: #322f30;
+            -moz-transition:.5s;
+            -webkit-transition:.5s;
+            transition: .5s;
+        }        
+    }
+    
+    .social-icon {
+        color: #fff;
+    }
+}
+
+.mail i:hover { background-color: $mail-color; }
+
+.twitter i:hover { background-color: $twitter-color; }
+
+.facebook i:hover { background-color: $facebook-color; }
+
+.github i:hover { background-color: $github-color; }
+
+.instagram i:hover { background-color: $instagram-color; }
+
+.lastfm i:hover { background-color: $lastfm-color; }
