@@ -20,7 +20,10 @@ owner:
     name: Antonio Campos
     bio: >
         22 years old, Computer science student, another carbon piece.
-    interests: [C++ (Qt), C# (WPF), Python, OCaml, Haskell]
+        I enjoy programming and listening to music, I'm currently focused
+        on creating custom user interfaces also I find functional programming
+        pretty interesting and I really like learning something new: a language or framework.
+    interests: [C++ (Qt), C# (WPF), Python, Haskell]
     avatar_hash: cff3e11c78e0e1068164741c02d2c186
     job: Student
     email: geckocore03@outlook.com
