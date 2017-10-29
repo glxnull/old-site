@@ -38,4 +38,4 @@ gems:
   - jekyll-feed
   - github-pages
 
-exclude: [Gemfile, Gemfile.lock, node_modules, gulpfile]
+exclude: [Gemfile, Gemfile.lock, package.json, yarn.lock, node_modules, gulpfile.js]
