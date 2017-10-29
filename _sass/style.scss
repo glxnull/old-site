@@ -1,12 +1,8 @@
 @charset 'utf-8';
 
-@import 'bootstrap';
-@import 'font-awesome';
-
 @import 'variables';
 @import 'base';
 
-@import 'partial/header';
-@import 'partial/post';
-@import 'partial/about';
-@import 'partial/footer';
+@import 'partials/header';
+@import 'partials/about';
+@import 'partials/footer';

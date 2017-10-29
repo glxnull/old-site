@@ -1,5 +1,5 @@
 # Site configuration
-title: Welcome to my Blog
+title: Just a soul lost in an ocean of despair
 email: geckocore03@outlook.com
 description: Just to share what I've learned
 baseurl: ""
@@ -18,12 +18,6 @@ kramdown:
 # Owner information
 owner:
     name: Antonio Campos
-    bio: >
-        22 years old, Computer science student, another carbon piece.
-        I enjoy programming and listening to music, I'm currently focused
-        on creating custom user interfaces also I find functional programming
-        pretty interesting and I really like learning something new: a language or framework.
-    interests: [C++ (Qt), C# (WPF), Python, Haskell]
     avatar_hash: cff3e11c78e0e1068164741c02d2c186
     job: Student
     email: geckocore03@outlook.com
@@ -33,8 +27,8 @@ owner:
     instagram: glxnull
     lastfm: shellgecko
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-feed
   - github-pages
 

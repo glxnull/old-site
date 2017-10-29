@@ -8,6 +8,8 @@
   <meta name="author" content="{{ site.owner.name }}">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
@@ -24,6 +26,7 @@
   {% include header.html %}
 
   <div class="container">
+
       {{ content }}
 
       <a href="#" class="return-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -31,7 +34,7 @@
 
   {% include footer.html %}
 
-  <script type="text/javascript" src="/assets/js/app.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="/assets/js/functions.js"></script>
 
 </body>
