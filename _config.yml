@@ -37,4 +37,5 @@ owner:
 gems:
   - jekyll-feed
   - github-pages
+
 exclude: [Gemfile, Gemfile.lock, node_modules, gulpfile]
